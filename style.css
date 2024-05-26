@@ -1,0 +1,120 @@
+body {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 200px;
+  }
+  
+  .logo-container {
+    flex-basis: 30%;
+    max-width: 200px;
+    margin-right: 50px;
+    max-height: auto;
+  }
+  
+  .title-container {
+    flex-basis: 70%;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+    text-align: center;
+  }
+  
+  
+    
+h2{
+    padding: 20px; 
+    margin-top: 0px;
+    text-align: center;
+    
+}
+.container {
+    display: flex;
+    width: 1282px; 
+    margin-left: 120px;
+    border : 1px solid #524791cc;
+    justify-content: space-between
+  }
+  
+  .form-student {
+    flex-basis: 70%;
+    text-align: left;
+  }
+  
+  .image-container {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+    .form-student {
+    margin: 25px;
+    padding: 10px;
+}
+    .form-student h3{
+    padding: 0px; 
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 150px;
+    
+}
+    .form-student label{
+    font-size: 20px;
+    width: 150px;
+    float: left;
+    padding: 5px;
+}
+    .form-student input[type="text"]{
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 10px;
+}
+div.form-student button{
+    margin-block-start: 10px;
+    margin-left: 55px;
+    width : 70px;
+    box-shadow: none;
+    outline: none;
+    color: rgb(60, 36, 147);
+    background-color: rgb(249, 249, 250);
+    border-radius: 5px;
+}
+div.form-student select{
+    margin-bottom: 10px;
+    width: 324px;
+    padding: 10px;
+}
+.error{
+    color: red;
+}
+div.class-student {
+    width: 1265px; 
+    border: 1px solid #524791cc;
+    margin: 25px;
+    padding: 10px;
+    margin-left: 120px;
+}
+div.class-student h4{
+    padding: 0px; 
+    margin-top: 0px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+div.class-student table button{
+  box-shadow: none;
+  outline: none;
+  background-color:rgb(255, 246, 240);
+  color: rgb(152, 56, 34);
+}
